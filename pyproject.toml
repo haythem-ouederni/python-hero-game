@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hero-game"
+version = "0.1.0"
+description = "A Hero vs NPCs game using pygame"
+authors = ["haythem ouederni <haythem.ouederni@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pygame = "^2.1.2"
+PyTMX = "^3.31"
+pyscroll = "^2.30"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
